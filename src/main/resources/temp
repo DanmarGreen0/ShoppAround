@@ -1,1 +1,0 @@
-INSERT INTO User VALUES(userName,firstName,lastName,password,address,dateOfBirth,email,phoneNo,createdAt,modifiedAt);

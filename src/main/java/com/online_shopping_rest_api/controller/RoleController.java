@@ -1,8 +1,8 @@
 package com.online_shopping_rest_api.controller;
 
-import com.online_shopping_rest_api.entity.Role;
-import com.online_shopping_rest_api.service.RoleServiceImpl;
-import com.online_shopping_rest_api.util.MapRoleEntityToJson;
+import com.online_shopping_rest_api.exceptions.BadRequestException;
+import com.online_shopping_rest_api.services.RoleServiceImpl;
+import com.online_shopping_rest_api.utils.MapRoleEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,36 +11,38 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-
 @RestController
 public class RoleController {
+
     @Autowired
     private RoleServiceImpl roleService;
 
-    @GetMapping(path="/roles", produces = "application/json")
-    @PreAuthorize("hasRole('ROLE_MASTER_ADMIN')")
-    public ResponseEntity<List<Map<String,Object>>> getRoles(){
+    @Autowired
+    private MapRoleEntity mapRoleEntity;
 
-        List<Role> roles = roleService.getRoles();
-        List<Map<String,Object>> json = new MapRoleEntityToJson().getRolesJson(roles);
+    @GetMapping(path="/roles", produces = "application/json")
+    @PreAuthorize("hasAnyRole('ROLE_MASTER_ADMIN','ROLE_ADMIN')")
+    public ResponseEntity<Object> getRoles(){
+
+        Object json = mapRoleEntity.toJson(roleService.getRoles());
+
+        
 
         return new ResponseEntity<>(json, HttpStatus.OK);
     }
 
     @GetMapping(path="/role/{id}", produces = "application/json")
-    @PreAuthorize("hasRole('ROLE_MASTER_ADMIN')")
-    public ResponseEntity<Object> getRole(@PathVariable int id){
+    @PreAuthorize("hasAnyRole('ROLE_MASTER_ADMIN','ROLE_ADMIN')")
+    public ResponseEntity<Object> getRole(@PathVariable int id) throws Exception{
 
         if(id < 0)
-            return new ResponseEntity<>("The param id value must be equal or greater than zero.", HttpStatus.BAD_REQUEST);
+            throw new BadRequestException("The value of the param id must be equal to or greater than zero.");
 
-        Optional<Role> role = roleService.getRole(id);
-        Map<String,Object> json = new MapRoleEntityToJson().getRoleJson(role.get());
+        Object json = mapRoleEntity.toJson(roleService.getRole(id));
 
         return new ResponseEntity<>(json, HttpStatus.OK);
     }
+
+
 
 }

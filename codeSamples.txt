@@ -1,0 +1,15 @@
+ // public Map<String, Object> json() {
+    // return Map.ofEntries(
+    // (id != null) ? Map.entry("id", id) : null,
+    // (!username.isEmpty()) ? Map.entry("username", username) : null,
+    // (!firstName.isEmpty()) ? Map.entry("firstName", firstName) : null,
+    // (!lastName.isEmpty()) ? Map.entry("lastName", lastName) : null,
+    // (!password.isEmpty()) ? Map.entry("password", password) : null,
+    // (!address.isEmpty()) ? Map.entry("address", address) : null,
+    // (!dateOfBirth.isEmpty()) ? Map.entry("dateOfBirth", dateOfBirth) : null,
+    // (!email.isEmpty()) ? Map.entry("email", email) : null,
+    // (!phoneNo.isEmpty()) ? Map.entry("phoneNo", phoneNo) : null,
+    // (!roles.isEmpty()) ? Map.entry("roles", roles) : null,
+    // (createdAt != null) ? Map.entry("createdAt", createdAt) : null,
+    // (modifiedAt != null) ? Map.entry("modifiedAt", modifiedAt) : null);
+    // }
