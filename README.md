@@ -1,7 +1,9 @@
 # Online Shopping API
-I want to learn Java along with spring boot to practice the development of cloud and web enterprise applications. So, I created an application that would be good practice for improving my coding skills using these unfamiliar programming languages. 
+The sole purpose of this project is to help advance my programming skills and knowledge as a Java developer developing cloud and web enterprise applications. 
 
-This REST application offers services to e-commerce platforms. This application could also benefit someone who wants to focus on designing a frontend system for people who enjoy shopping online.
+To accomplish this goal, I have decided to create a fully functional E-commerce web application that requires me to learn how to implement numerous different web application functionalities. My focus on computer language and framework for this project are Java, Springboot, and ReactJS. I choose to name this web Application ShoppAround.
+
+The ShoppAround web application will consist of a front-end and a back-end system like any other native E-commerce web application online, for example, E-commerce web platforms like Amazon, eBay, Walmart, etc. It will be a Consumer-to-Consumer E-commerce web application.
 
 ## Table of Contents (Optional)
 
