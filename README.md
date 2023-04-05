@@ -1,4 +1,4 @@
-# Online Shopping API
+# Online Shopping API (Still In construction)
 The sole purpose of this project is to help advance my programming skills and knowledge as a Java developer developing cloud and web enterprise applications. 
 
 To accomplish this goal, I have decided to create a fully functional E-commerce web application that requires me to learn how to implement numerous different web application functionalities. My focus on computer language and framework for this project are Java, Springboot, and ReactJS. I choose to name this web Application ShoppAround.
