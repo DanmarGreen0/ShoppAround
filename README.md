@@ -9,7 +9,7 @@ The ShoppAround web application will consist of a front-end and a back-end syste
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Install](#install)
+- [Installation](#installation)
 - [Configuration](#Configuration)
 - [Usage](#Usage)
 - [Security](#Security)
@@ -17,7 +17,14 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Contribute](#Security)
 - [License](#license)
 
-## Install
+## Installation 
+Bellow you will find all the tools that are required to run application on your Computer
+
+## Prerequisites
+1. Install a code editor or IDE. [`vscode (recommend)`](https://code.visualstudio.com/download)
+2. Install [`Node.js`](https://nodejs.org/en/download) and npm `npm install npm@latest -g`(command line required)
+3. Install Java [`Java 1.8 or later`](https://gradle.org/install/) 
+4. Install Gradle [`Gradle 7.5+`](https://gradle.org/install/)
 ## Configuration
 ## Usage
 ## Security
