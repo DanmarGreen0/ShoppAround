@@ -5,17 +5,13 @@ To accomplish this goal, I have decided to create a fully functional E-commerce 
 
 The ShoppAround web application will consist of a front-end and a back-end system like any other native E-commerce web application online, for example, E-commerce web platforms like Amazon, eBay, Walmart, etc. It will be a Consumer-to-Consumer E-commerce web application.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
-- [Configuration](#Configuration)
 - [Usage](#Usage)
-- [Security](#Security)
-- [API](#Security)
-- [Contribute](#Security)
-- [License](#license)
+
 
 ## Installation 
 Found inside the prerequisites section below are the tools required to run the ShoppAround application on your computer. Feel free to skip any of these tools if you have them already installed on your computer.
@@ -25,9 +21,15 @@ Found inside the prerequisites section below are the tools required to run the S
 `npm install npm@latest -g`
 3. Install Java [`Java 1.8 or later`](https://gradle.org/install/) 
 4. Install Gradle [`Gradle 7.5+`](https://gradle.org/install/)
-## Configuration
+
+
+
+ <!--
+5. After installing all the tools need for the application to run, clone the main branch from the github repository.
+6. Next, open the cloned application folder inside your IDE on your machine.
+7. 
+
+ 
 ## Usage
-## Security
-## API
-## Contribute
-## License
+## Roadmap
+-->
