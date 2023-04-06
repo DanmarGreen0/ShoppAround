@@ -18,11 +18,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 
 ## Installation 
-Bellow you will find all the tools that are required to run application on your Computer
-
+Found inside the prerequisites section below are the tools required to run the ShoppAround application on your computer. Feel free to skip any of these tools if you have them already installed on your computer.
 ## Prerequisites
 1. Install a code editor or IDE. [`vscode (recommend)`](https://code.visualstudio.com/download)
-2. Install [`Node.js`](https://nodejs.org/en/download) and npm `npm install npm@latest -g`(command line required)
+2. Install [`Node.js`](https://nodejs.org/en/download) and npm.
+`npm install npm@latest -g`
 3. Install Java [`Java 1.8 or later`](https://gradle.org/install/) 
 4. Install Gradle [`Gradle 7.5+`](https://gradle.org/install/)
 ## Configuration
@@ -31,5 +31,3 @@ Bellow you will find all the tools that are required to run application on your 
 ## API
 ## Contribute
 ## License
-
-https://yahoo.github.io/oss-guide/docs/publishing/publishing-template/README.html
