@@ -1,0 +1,22 @@
+div.cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+div.card-container {
+    background-color: white;
+    /* width: fit-content; */
+    flex: 0 0 200px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+} 
+
+div.card-container > p {
+    white-space: nowrap; 
+    /* width: 50px;  */
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

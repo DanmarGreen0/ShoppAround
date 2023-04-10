@@ -1,0 +1,168 @@
+#userprofile-menu-hover-link {
+  /* margin-block-end: -2%; */
+  font-size: 0.9em;
+}
+
+div.page {
+  background-color: #00000042;
+}
+
+/* part 1 */
+div.part-1 {
+  display: grid;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  /* color: white; */
+}
+
+/* header section ---- */
+
+header#main-header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  column-gap: 20px;
+  background-color: black;
+}
+
+div.part-1 a[id$="-link"] {
+  color: white;
+  text-decoration: none;
+}
+
+div.part-1 div[class$="menu-link-container"] {
+
+  transform: scale(1.2);
+  
+}
+
+div.part-1 div[class$="menu-link-container"]:hover {
+
+  transform: scale(1.3);
+}
+
+div.part-1 a[id$="-hover-link"]:hover{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  border-style: none none double none;
+  border-color: #ff00b7;
+}
+
+div.part-1 #cart-hover-link svg:hover {
+  rotate: 45deg;
+}
+
+/* #logoContainer {
+
+  pointer-events: none;
+} */
+
+div.part-1  [id$="-hover-link"].active{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  border-style: none none double none;
+  border-color: #ff00b7;
+}
+
+header div.searchBoxContainer input[type="text"] {
+  border: 1px solid #ff00b7;
+  box-shadow: 0 0 0 1px #ff00b7;
+}
+
+header div.searchBoxContainer {
+  box-shadow: 0 0 0 1px #000000;
+}
+
+header[id|="main"] {
+  margin: auto;
+}
+
+MDBCol div {
+  width: 50%;
+}
+
+/* line-break */
+
+hr#line-break {
+  background-color: #ffffff;
+  opacity: 100%;
+  margin: 0%;
+}
+
+/* nav section ---- */
+nav#main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav[id|="main"] {
+  margin: auto;
+}
+
+
+/* part 2 */
+/* section-style */
+div.part-2 {
+  position: fixed;
+  bottom: 0;
+  display: grid;
+  /* grid-template-rows: 100vh; */
+  height: 87%;
+  width: 100%;
+  overflow: auto;
+}
+
+div.content-container {
+  display: grid;
+  width: 100%;
+  background-color: #0009;
+}
+
+div.screen {
+  height: 100%;
+  padding-left: 1%;
+  padding-right: 1%;;
+  padding-bottom: 1%;
+  /* background: gray; */
+}
+
+#main-footer a, #main-footer p {
+  color: white;
+}
+
+section#main-section {
+  height: 100%;
+  /* background: gray; */
+}
+
+section#main-section div h2 {
+  text-align: center;
+}
+
+/* footer-style */
+footer#main-footer {
+  width: 100%;
+  background-color: #000000;
+}
+
+footer#main-footer div#section-2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  div.part-1 {
+    display: grid;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    height: auto;
+  }
+}

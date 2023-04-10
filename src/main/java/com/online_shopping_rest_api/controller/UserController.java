@@ -81,7 +81,11 @@ public class UserController {
     }
 
     @GetMapping(value = { "/user", "/user/{id}" })
+<<<<<<< HEAD
     @PreAuthorize("hasAnyRole('ROLE_MASTER_ADMIN', 'ROLE_ADMIN')")
+=======
+    // @PreAuthorize("hasAnyRole('ROLE_MASTER_ADMIN', 'ROLE_ADMIN')")
+>>>>>>> webappIntegration
     public ResponseEntity<Object> getUserAccountBy(@PathVariable Optional<Integer> id,
             @RequestParam Optional<String> username) {
 
@@ -100,8 +104,13 @@ public class UserController {
                 HttpStatus.OK);
     }
 
+<<<<<<< HEAD
     @PostMapping(path = "/admin/user", produces = "application/json")
     @PreAuthorize("hasRole('ROLE_MASTER_ADMIN')")
+=======
+    @PostMapping(path = "/user", produces = "application/json")
+    // @PreAuthorize("hasRole('ROLE_MASTER_ADMIN')")
+>>>>>>> webappIntegration
     public ResponseEntity<Object> addAdminUser(@RequestBody UserDTO userDTO) {
 
         final Object userJson = mapUserEntity.toJson(userService.createAdminUser(userDTO));
