@@ -1,0 +1,40 @@
+/* div.screen div { 
+
+    height: inherit;
+    
+} */
+
+
+/*cart css rules*/
+.products-screen {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 15px;
+}
+
+#cart2 {
+  position: relative;
+  left: 6px;
+  top: 4px;
+  color: black;
+}
+
+.cart-menu{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  transition: width 2s, height 4s;
+  align-items: center;
+  border-radius: 0%;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+
+
+
+.cart-menu:hover{
+  background-color: white;
+  width: 400px;
+  height: 400px;
+}

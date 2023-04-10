@@ -1,0 +1,8 @@
+div.profile-menu-container {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+div.profile-menu-container > *{
+    text-align: center;
+    border-style: solid;
+}

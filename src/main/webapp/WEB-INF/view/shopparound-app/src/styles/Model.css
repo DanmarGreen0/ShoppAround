@@ -1,0 +1,47 @@
+.model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.model .inner-container {
+    width: 49%;
+    height: 100%;
+    translate: 50% 20%;
+}
+
+/* form.addProduct-form {
+    overflow: auto;
+    margin: auto;
+} */
+
+form.addProduct-form #fields {
+    background-color: #fefefe;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+div#fields > div {
+    display: grid;
+}
+
+
+.model .btn {
+    margin: 2%;
+}
+
+.model #buttons {
+    translate: 35%;
+}
+
+/* .model #buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+} */

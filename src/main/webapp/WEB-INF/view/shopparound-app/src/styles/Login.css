@@ -1,0 +1,9 @@
+div.loginForm-container {
+    display: flex;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 2%;
+    width: fit-content;
+    margin: 0 auto;
+}
+

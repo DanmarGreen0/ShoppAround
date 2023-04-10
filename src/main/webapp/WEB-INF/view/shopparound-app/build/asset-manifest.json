@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4f4bfc5.css",
+    "main.js": "/static/js/main.ded4e8fc.js",
+    "static/js/988.11f9aff9.chunk.js": "/static/js/988.11f9aff9.chunk.js",
+    "static/media/underwear.png": "/static/media/underwear.892ff681e3cd309ee5ac.png",
+    "index.html": "/index.html",
+    "main.b4f4bfc5.css.map": "/static/css/main.b4f4bfc5.css.map",
+    "main.ded4e8fc.js.map": "/static/js/main.ded4e8fc.js.map",
+    "988.11f9aff9.chunk.js.map": "/static/js/988.11f9aff9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4f4bfc5.css",
+    "static/js/main.ded4e8fc.js"
+  ]
+}
