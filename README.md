@@ -25,7 +25,7 @@ Found inside the prerequisites section below are the tools required to run the S
 6. Now open the cloned repository folder inside your IDE on your machine. 
 7. Then open two terminal windows inside you IDE. In the next step you will be asked use both of terminal windows to run the back-end server and the front-end web application.
 8. In one of these terminal window use the command-line and run the command `./gradlew bootRun`. On the command line in the next terminal window navigate to the sub-folder named `shopparound-app`. Here is the file path `\src\main\webapp\WEB-INF\view\shopparound-app`. In that same derectory, using the command-line to run the command `npm start`.
-9. The application should open in your web browser automatically. If a browser window didn't open, manually open a browser window and enter the url `http://localhost:3000/` and hit enter. If everything goes smoothly the application should be up and runny and ready to be used. 
+9. The application should open in your web browser automatically. If a browser window didn't open, manually open a browser window and enter the url [`http://localhost:3000/`](http://localhost:3000/) and hit enter. If everything goes smoothly the application should be up and runny and ready to be used. 
 
 ## Usage
 ## Roadmap
